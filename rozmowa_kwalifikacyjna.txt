@@ -13,3 +13,6 @@ za pomocą lokatorów odwołujemy się do atrybutów elementów html - i tym sam
 <a id="qwe">
 
 driver.findElement(By.id("qwe"));
+
+3. Co to jest pom.xml?
+Tam są zawarte info o projekcie, tam wrzuca się też potrzebne zależności(dependencies).

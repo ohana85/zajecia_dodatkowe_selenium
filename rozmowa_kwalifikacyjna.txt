@@ -1,0 +1,15 @@
+1. Jakie znasz lokatory?
+id
+className
+tagName
+cssSelector
+xpath
+linktext
+portallinktext
+2. W jaki sposób lokatory działają?
+Programista front-end umieszcza atrybuty elementów html w kodzie, żeby je obsłużyć w kodzie JS - przykładowo,
+za pomocą lokatorów odwołujemy się do atrybutów elementów html - i tym samym znajdujemy pozczególne elementy
+
+<a id="qwe">
+
+driver.findElement(By.id("qwe"));
